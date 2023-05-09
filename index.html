@@ -9,15 +9,20 @@
     <meta name="author" content="Daniel Castello">
     <meta http-equiv="refresh" content="50">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="Public/css/devaria.css">
+    <link rel="stylesheet" href="Public/css/footer.css">
+    <link rel="stylesheet" href="Public/css/header.css">
+    <link rel="stylesheet" href="Public/css/index.css">
     <title>Olá Mundo</title>
 </head>
 
 <body>
     <header>
-        <h1 class="color-red">Olá Mundo, essa é minha primeira página WEB</h1>
-        <nav class="color-red">
-            <ul>
+        <a href="index.html" class="link-logo">
+            <img src="Public/Fotos/fotoHome.png" alt="Logo devaria"/>
+        </a>
+        <nav>
+            <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Professores.html">Professores </a></li>
                 <li><a href="FaleConosco.html">Fale conosco</a></li>
@@ -25,15 +30,16 @@
             </ul>
         </nav>
     </header>
-
-    <main>
-        <section>
+    
+    <main class="text-center">
+        <h1 class="title">Olá Mundo, essa é minha primeira página WEB</h1>
+        <section class="cover-container">
             <figure>
-                <img src="Public/Fotos/fotoHome.png" width="300" alt="Foto Devaria"/>
+                <img src="Public/Fotos/fotoHome.png" alt="Foto Devaria"/>
                 <figcaption>Foto logo Devaria</figcaption>
             </figure>
         </section>
-        <section>
+        <section class="section-video">
             <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEqYpFQZHsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -43,15 +49,15 @@
             <source src="pastaOndeEstaVideo/NomeVideo.mp4" type="video/mp4">
     -->
 
-        <section>
-            <h3>Para que os <abbr title="Developers">DEVs</abbr> fiquem sabendo, utilizamos <abbr title="Microsoft">MS</abbr> Azure</h3>
-            <blockquote cite="Transforme suas ideias em inovação com os produtos e serviços de confiança do Azure">
+        <section class="section-azure">
+            <h3 class="title">Para que os <abbr title="Developers">DEVs</abbr> fiquem sabendo, utilizamos <abbr title="Microsoft">MS</abbr> Azure</h3>
+            <blockquote class="text-justify" cite="https://azure.microsoft.com/pt-br/explore/">Transforme suas ideias em inovação com os produtos e serviços de confiança do Azure
             </blockquote>
         </section>
     
     </main>
 
-    
+
     <footer>
         <section>
             <span>contato@devaria.com.br</span> <br>
